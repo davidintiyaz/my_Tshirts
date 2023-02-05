@@ -50,7 +50,6 @@ router.put(
 );
    
 //listing route
-router.get("/productss", getAllProducts);
 router.get("/products", getAllProducts);
 
 module.exports = router; 
