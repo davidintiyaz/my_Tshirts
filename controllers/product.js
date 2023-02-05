@@ -181,6 +181,6 @@ exports.updateStock = (req, res, next) => {
       });
     }
     next();
-  });
+  }); 
 };
  
